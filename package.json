@@ -1,0 +1,22 @@
+{
+  "name": "ddns",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run index.ts --watch",
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/node-schedule": "^2.1.0",
+    "@types/xml2js": "^0.4.12",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.9",
+    "node-schedule": "^2.1.1",
+    "xml2js": "^0.6.2"
+  }
+}
